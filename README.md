@@ -27,7 +27,7 @@
 
 ## 📂 Featured Projects
 
-### 🏥 MedicoAI — AI Medical Diagnosis App
+### 🏥 PulseAI — AI Medical Diagnosis App
 AI-powered web app that analyzes symptoms to suggest diseases, medications, diet and exercise using ML classification models.  
 `Python` `Scikit-learn` `Machine Learning` `HTML` `CSS`
 
