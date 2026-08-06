@@ -91,16 +91,22 @@
 
 ---
 
-### 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ankit3347&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Ankit3347&theme=tokyonight&hide_border=true" />
+  <img src="https://www.gitskins.com/api/premium-card?username=ankit3347&theme=aurora" alt="GitHub Stats" />
 </p>
 
+
+
+
+
+
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankit3347&layout=compact&theme=tokyonight&hide_border=true" />
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=ankit3347&theme=aurora&style=jet&mode=light" /><img src="https://www.gitskins.com/api/section/heatmap?username=ankit3347&theme=aurora&style=jet" alt="ankit3347 contribution activity, with a jet firing at their busiest days" /></picture>
 </p>
+
 
 ---
 
