@@ -1,3 +1,10 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=22C55E&center=true&vCenter=true&width=435&lines=Hi+👋+I'm+Ankit%20prajapati;Welcome+to+my+profile!" alt="Typing SVG" />
+</h1>
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/149420362?u=7c949b37df6c1503011dc01e633e844c694ee773&v=4" width="150" style="border-radius: 50%;" alt="Ankit prajapati" />
+</p>   
 <h1 align="center">Hey, I'm Ankit 👋</h1>
 <h3 align="center">Data Science & AI Learner | ML Projects | Web Dev | NCC Cadet</h3>
 
