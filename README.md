@@ -299,13 +299,12 @@ Five years of hands-on research and execution across the full Web3 ecosystem —
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ankit3347&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankit3347&theme=tokyonight&hide_border=true" height="180"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Ankit3347&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ankit3347&theme=tokyonight&hide_border=true"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankit3347&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="160"/>
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankit3347&theme=tokyonight&hide_border=true&layout=compact"/>
 
 </div>
 
@@ -315,7 +314,7 @@ Five years of hands-on research and execution across the full Web3 ecosystem —
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ankit3347&theme=tokyonight&no-frame=true&margin-w=4&row=1" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Ankit3347&theme=tokyonight&no-frame=true&margin-w=4"/>
 
 </div>
 
