@@ -299,13 +299,13 @@ Five years of hands-on research and execution across the full Web3 ecosystem —
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ankit3347&theme=tokyonight&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&title_color=8B5CF6&icon_color=6D28D9&text_color=ffffff&bg_color=0D0D0D" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Ankit3347&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="180"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankit3347&theme=tokyonight&hide_border=true&background=0D0D0D&ring=8B5CF6&fire=6D28D9&currStreakLabel=8B5CF6&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=666666" height="180"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ankit3347&theme=tokyonight&hide_border=true" height="180"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankit3347&theme=tokyonight&hide_border=true&layout=compact&title_color=8B5CF6&text_color=ffffff&bg_color=0D0D0D&langs_count=8" height="160"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ankit3347&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" height="160"/>
 
 </div>
 
@@ -315,7 +315,7 @@ Five years of hands-on research and execution across the full Web3 ecosystem —
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ankit3347&theme=tokyonight&no-frame=true&no-bg=true&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B" width="100%"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Ankit3347&theme=tokyonight&no-frame=true&margin-w=4&row=1" width="100%"/>
 
 </div>
 
