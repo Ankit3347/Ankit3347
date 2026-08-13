@@ -310,7 +310,7 @@ Five years of hands-on research and execution across the full Web3 ecosystem —
 
 ---
 
-## 🏅 GitHub Trophies
+<!--## 🏅 GitHub Trophies>
 
 <!-- <div align="center">
 
