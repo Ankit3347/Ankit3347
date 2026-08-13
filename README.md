@@ -312,11 +312,11 @@ Five years of hands-on research and execution across the full Web3 ecosystem —
 
 ## 🏅 GitHub Trophies
 
-<div align="center">
+<!-- <div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=Ankit3347&theme=tokyonight&no-frame=true&margin-w=4"/>
 
-</div>
+</div> -->
 
 ---
 
