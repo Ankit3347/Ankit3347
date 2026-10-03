@@ -104,29 +104,31 @@ Detail-oriented Data Science and AI professional with a B.Tech in Computer Scien
 ## 🚀 Featured Projects
 
 <details>
-<summary><b>🏥 MedicoAI — AI-Powered Medical Diagnosis System</b></summary>
+<summary><b>🤖 ReviewIQ — GenAI-Powered Customer Review Intelligence & Risk Analytics</b></summary>
 <br/>
 
-> An intelligent web application that analyzes patient-reported symptoms and generates AI-driven suggestions for possible diseases, medications, dietary guidance, and exercise plans using supervised machine learning classification models.
+> An end-to-end NLP and GenAI analytics system that transforms 568,454 raw Amazon product reviews into structured business intelligence — combining supervised ML sentiment classification, a transparent product risk scoring engine, and Google Gemini AI-assisted qualitative analysis, all surfaced through a 6-page interactive Streamlit dashboard.
 
 <div align="center">
 
 | Attribute | Details |
 |:---|:---|
-| **Stack** | Python · Scikit-learn · ML Classification · HTML · CSS |
-| **Domain** | Healthcare AI · Predictive Analytics |
-| **ML Models** | Classification Algorithms · Feature Selection · Model Evaluation |
-| **Data Pipeline** | Collection → Cleaning → Preprocessing → Training → Prediction |
-| **Impact** | Demonstrates applied AI in medical decision-support systems |
+| **Stack** | Python 3.12 · scikit-learn · TF-IDF · Plotly · Streamlit · Google Gemini API |
+| **Scale** | 568,454 reviews · 74,258 products · 256,059 users · ~300 MB dataset |
+| **ML Models** | Linear SVM (best) · Logistic Regression · Multinomial Naive Bayes |
+| **Best Model** | Linear SVM — Accuracy: 89.24% · Macro F1: 0.7447 · Weighted F1: 0.8921 |
+| **Pipeline** | Cleaning → Feature Engineering → EDA → ML → Risk Scoring → GenAI → Dashboard |
+| **Dashboard** | 6-page Streamlit app: Overview · Sentiment · Products · Risk · AI Analyst · Methodology |
 | **Repository** | [View on GitHub →](https://github.com/Ankit3347) |
 
 </div>
 
 **Technical Highlights:**
-- Implemented complete data pipeline from raw symptom collection to cleaned, model-ready input
-- Applied feature engineering and cross-validation to optimize classification accuracy
-- Assessed data for accuracy and identified anomalies to improve prediction reliability
-- Deployed web interface allowing real-time symptom input and AI-generated health suggestions
+- Processed 568,454 Amazon Fine Food reviews — removing ~1,634 duplicates, stripping HTML, and engineering features including review length, helpfulness ratio, and sentiment proxy labels
+- Trained TF-IDF pipeline on stratified 150,000-row sample with 80/20 split; TF-IDF fitted on training data only — zero data leakage; selected Macro F1 over accuracy due to 78% positive class imbalance
+- Built transparent 4-factor product risk scoring engine with High (≥0.65) / Medium (≥0.35) / Low tiers; products with fewer than 10 reviews excluded from scoring
+- Integrated Google Gemini API — 8–12 representative reviews per product injected into structured prompt returning observation, insight, complaint themes, recommended actions, and epistemic confidence rating
+- Delivered modular production-style architecture: `preprocessing.py` → `sentiment_model.py` → `risk_scoring.py` → `genai_analyst.py` → Streamlit app with custom CSS
 
 <br/>
 </details>
@@ -134,29 +136,31 @@ Detail-oriented Data Science and AI professional with a B.Tech in Computer Scien
 ---
 
 <details>
-<summary><b>🏠 Real Estate Price Prediction Model</b></summary>
+<summary><b>📉 E-Commerce Customer Churn & Retention Analytics</b></summary>
 <br/>
 
-> A machine learning regression system that predicts residential property prices using historical real estate market data, applying multiple algorithms with comparative evaluation to identify optimal performance.
+> A complete end-to-end data analytics and machine learning solution for predicting customer churn in e-commerce — identifying at-risk customers before they leave and generating tiered, data-driven retention strategies backed by EDA insights and ML-derived churn probabilities.
 
 <div align="center">
 
 | Attribute | Details |
 |:---|:---|
-| **Stack** | Python · Pandas · NumPy · Scikit-learn · Matplotlib |
-| **Domain** | Real Estate Analytics · Predictive Modeling |
-| **ML Models** | Multiple Regression Algorithms · Comparative Evaluation |
-| **Data Pipeline** | EDA → Feature Engineering → Training → Evaluation → Insights |
-| **Performance** | Optimized via feature selection and hyperparameter tuning |
+| **Stack** | Python · pandas · NumPy · scikit-learn · Matplotlib · Seaborn · Jupyter Notebook |
+| **Dataset** | 5,630 customers · 19 features · 16.84% churn rate (948 churned) |
+| **ML Models** | Gradient Boosting (best) · Random Forest · Logistic Regression (baseline) |
+| **Pipeline** | ColumnTransformer: SimpleImputer + StandardScaler (numerical) · OneHotEncoder (categorical) |
+| **Metric Priority** | ROC-AUC and Recall prioritized — missing a churning customer costs more than a false alarm |
+| **Risk Tiers** | High ≥0.60 · Medium 0.30–0.60 · Low <0.30 with targeted retention campaigns |
 | **Repository** | [View on GitHub →](https://github.com/Ankit3347) |
 
 </div>
 
 **Technical Highlights:**
-- Conducted full exploratory data analysis to identify key price-driving features
-- Engineered features from raw housing attributes to improve model signal quality
-- Compared multiple regression approaches to quantify prediction accuracy improvements
-- Translated model outputs into business-interpretable property valuation insights
+- Analyzed 5,630 e-commerce customer records with 7 columns carrying ~5% missing values — applied median imputation inside ColumnTransformer pipeline (no data leakage)
+- Surfaced key churn drivers via EDA: complaint raised → 31.7% vs 10.9% churn; tenure 0–6 months → 32.4% churn (drops to 6% after 12 months); COD users → 28.8% churn; satisfaction paradox — score 5 customers still churned at 23.8%
+- Selected Gradient Boosting as best model; optimized for Recall and ROC-AUC over accuracy — prioritizing detection of true churners in a class-imbalanced dataset
+- Segmented customers into High, Medium, and Low risk tiers with tailored retention strategies per tier (personalized outreach, coupon campaigns, loyalty deepening)
+- Delivered 4-page interactive HTML analytics dashboard covering Executive KPIs, Customer Behavior, ML Results, and Business Recommendations
 
 <br/>
 </details>
@@ -164,28 +168,30 @@ Detail-oriented Data Science and AI professional with a B.Tech in Computer Scien
 ---
 
 <details>
-<summary><b>📚 FreeLearning — Google-Integrated Educational Platform</b></summary>
+<summary><b>💊 PulseAI — AI-Powered Medical Symptom Prediction System</b></summary>
 <br/>
 
-> A free web-based learning platform delivering curated engineering video lectures through Google Drive and YouTube integration, designed for self-paced study by engineering students.
+> A Flask-based AI web application that processes patient-reported symptoms through a trained SVM classification model to predict possible diseases and generate supporting health recommendations — built with a professional dark-theme UI featuring glassmorphism design and SVG animations.
 
 <div align="center">
 
 | Attribute | Details |
 |:---|:---|
-| **Stack** | HTML5 · CSS3 · JavaScript · Google Drive API · YouTube API |
-| **Domain** | EdTech · Web Development |
-| **Integrations** | Google Drive API · YouTube Embed API |
-| **Scale** | Multi-subject engineering curriculum |
-| **Impact** | Free accessible education for engineering students |
+| **Stack** | Python · Flask · Scikit-learn · SVM · HTML · CSS (custom design system) |
+| **Domain** | Healthcare AI · Supervised Classification · Predictive Analytics |
+| **Scale** | 132 symptom inputs · 41 disease categories |
+| **Accuracy** | ~98% classification accuracy on test set |
+| **Pipeline** | Data Cleaning → Feature Engineering → SVM Training → Flask API → UI Output |
+| **Design** | Dark theme · glassmorphism cards · SVG animations · teal/purple palette |
 | **Repository** | [View on GitHub →](https://github.com/Ankit3347) |
 
 </div>
 
 **Technical Highlights:**
-- Built Google Workspace-integrated content delivery system using Drive and YouTube APIs
-- Designed clean UI with HTML5/CSS3 for optimal student navigation experience
-- Structured multi-subject video library with organized lecture categorization
+- Developed SVM classifier using Scikit-learn to map 132 binary symptom inputs to 41 disease categories, achieving approximately 98% classification accuracy on held-out test data
+- Engineered complete supervised learning pipeline — data cleaning, feature selection, cross-validation, and SVM model training — with Flask REST-style API serving real-time predictions
+- Built full-stack web interface with a custom CSS design system (dark background, teal `#00d4aa` and purple `#a855f7` accents), glassmorphism cards, and SVG animations
+- Integrated disease-specific medication, dietary, and exercise recommendations as structured output alongside each prediction
 
 <br/>
 </details>
